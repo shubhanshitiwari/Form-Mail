@@ -1,0 +1,59 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(67, 61, 134);
+    color: #131212;
+}
+
+form {
+    background-color: rgba(230, 223, 232, 0.25);
+    padding: 20px 85px 30px 65px;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+}
+form ::placeholder{
+    color: antiquewhite;
+}
+
+form h2 {
+    text-align: center;
+}
+
+form input,
+textarea {
+    margin-bottom: 15px;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(99, 96, 120);
+    background-color:rgba(230, 223, 232, 0.25);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    color: azure;
+}
+
+form input,
+textarea:hover {
+    border: 2px solid rgb(111, 201, 171);
+}
+
+.btn {
+    display: block; /* Ensures it's treated as a block-level element */
+    margin: 0 auto; /* Centers the button horizontally */
+    width: 100%; /* Takes full width of the form */
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(111, 201, 171);
+    border: 2px solid transparent; /* No border initially */
+    transition: border-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.btn:hover {
+    border-color: rgb(99, 96, 120); /* Change border color on hover */
+}
